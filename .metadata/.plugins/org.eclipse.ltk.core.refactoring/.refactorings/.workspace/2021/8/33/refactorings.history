@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;barce-back-propietarios&apos;" deleteContents="false" description="Delete resource &apos;barce-back-propietarios&apos;" element1="/barce-back-propietarios" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1628988559659"/>&#x0A;<refactoring comment="Delete resource &apos;barce-back-propietarios&apos;" deleteContents="true" description="Delete resource &apos;barce-back-propietarios&apos;" element1="/barce-back-propietarios" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1628988756016"/>
+</session>

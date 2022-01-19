@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de vacante</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <script src="https://kit.fontawesome.com/9e31bbba84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Empleos App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Menú 1</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Menú 2</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        </div>
+    </nav>
+
+    <main role="main">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img th:src="@{/images/{img} (img=${vacante.imagen})}" alt="Logo de empresa" class="rounded mx-auto d-block img-logo-home">
+                </div>
+                <div class="col-md-9">
+                    <div class="card">
+                        <h4 class="card-header">Aplicar para <strong th:text="${vacante.nombre}"></strong></h4>
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Categoría:</strong> <span th:text="${vacante.nombre}"></span></h6>
+                            <h6 class="card-title"><strong>Publicado:</strong> <span th:text="${vacante.fecha}"></span></h6>
+                            <h6 class="card-title"><strong>Salario Ofrecido:</strong> <span th:text="${vacante.salario}"></span></h6>
+                            <p class="card-text" th:text="${vacante.descripcion}"></p>
+
+                            <div class="card bg-light mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Detalle de la oferta de trabajo
+                                    </h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptas officia labore temporibus quibusdam minus magni deleniti alias, autem, quas aspernatur ut neque, exercitationem nemo nisi non obcaecati. Repellendus, debitis.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="" role="button" class="btn btn-primary">
+                                <i class="fas fa-plus"></i>
+                                Quiero aplicar a esta oferta de trabajo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--
+    <h1 th:text="${mensaje}"></h1>
+    <h2>Hoy es [[${fecha}]]</h2>
+
+    <h1>Detalle de la oferta de trabajo</h1>
+    <h3 th:text="'Nombre: '+${vacante.nombre}"></h3>
+    <h6 th:text="'Fecha de Publicación: '+${vacante.fecha}"></h6>
+    <h4 th:text="'Salario ofrecido: '+${vacante.salario}"></h4>
+    <p th:text="'Descripción: '+${vacante.descripcion}"></p>
+    -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                &copy; 2021 Empleos App, Inc. | WebApp | Autor: TecniRec
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>

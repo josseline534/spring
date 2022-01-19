@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=empleos/C:\/Users\/josseline\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.5.2\/spring-data-jpa-2.5.2.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.5.2=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1626182834404"/>
+    <typeInfo handle="=empleos/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tecniRec.services{IVacanteService.java[IVacanteService" modifiers="513" timestamp="1626304903068"/>
+    <typeInfo handle="=demo01/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.curso.demo01.services{INumeros.java[INumeros" modifiers="513" timestamp="1627590374083"/>
+    <typeInfo handle="=demo01/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.curso.demo01.services{IProduct.java[IProduct" modifiers="513" timestamp="1627771101882"/>
+    <typeInfo handle="=demo01/C:\/Users\/josseline\/.m2\/repository\/org\/mockito\/mockito-core\/3.9.0\/mockito-core-3.9.0.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/test=/true=/=/maven.groupId=/org.mockito=/=/maven.artifactId=/mockito-core=/=/maven.version=/3.9.0=/=/maven.scope=/test=/&lt;org.mockito.plugins(InstantiatorProvider2.class[InstantiatorProvider2" modifiers="1537" timestamp="1623445043901"/>
+    <typeInfo handle="=demo01/C:\/Users\/josseline\/.m2\/repository\/org\/mockito\/mockito-core\/3.9.0\/mockito-core-3.9.0.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/test=/true=/=/maven.groupId=/org.mockito=/=/maven.artifactId=/mockito-core=/=/maven.version=/3.9.0=/=/maven.scope=/test=/&lt;org.mockito.plugins(InstantiatorProvider.class[InstantiatorProvider" modifiers="1050113" timestamp="1623445043901"/>
+</typeInfoHistroy>

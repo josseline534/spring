@@ -1,0 +1,21 @@
+package com.curso.product;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+
+import com.curso.product.entity.Categoria;
+import com.curso.product.entity.Product;
+import com.curso.product.repository.ProductRepository;
+
+@DataJpaTest
+public class ProductRepositoryMockTest {
+	
+	@Autowired
+	private ProductRepository productRepository;
+
+	public void whenFindByCategory_thenReturnListProduct () {
+		Product product01 = Product.builder()
+				.nombre("Computadora")
+				.categoria(Categoria.builder().id(1).build())
+	}
+}

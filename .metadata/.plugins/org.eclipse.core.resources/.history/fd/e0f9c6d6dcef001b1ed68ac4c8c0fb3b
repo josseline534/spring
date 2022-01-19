@@ -1,0 +1,36 @@
+package com.curso.product;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+
+import com.curso.product.entity.Categoria;
+import com.curso.product.entity.Product;
+import com.curso.product.repository.ProductRepository;
+
+import lombok.Builder;
+
+@DataJpaTest
+public class ProductRepositoryMockTest {
+	
+	@Autowired
+	private ProductRepository productRepository;
+
+	public void whenFindByCategory_thenReturnListProduct () {
+		Product product01 = Product.builder()
+				.nombre("computadora")
+				.descripcion("")
+				.stock(Integer.parseInt("15"))
+				.precio(Double.parseDouble("256.36"))
+				.estado("creado")
+				.categoria(Categoria.builder().id(Long.parseLong("1")).build())
+				.creacionProduct(new Date()).build();
+		productRepository.save(product01);
+		
+		List<Product> founds = productRepository.findByCategoria(product01.getCategoria());
+		
+		
+	}
+}

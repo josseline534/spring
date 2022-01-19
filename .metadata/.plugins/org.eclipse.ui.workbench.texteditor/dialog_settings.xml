@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="obtenerSolicitudesEstado"/>
+		<list key="findhistory">
+			<item value="obtenerSolicitudesEstadoobtenerDeudaPropietario"/>
+			<item value="obtenerSolicitudesEstado"/>
+			<item value="javax.xml.bind"/>
+			<item value="getPersistenceUtil"/>
+			<item value="urlSolicitudConsultar"/>
+			<item value="/getReques"/>
+			<item value="statusError"/>
+			<item value="obtenerOrdenesEstado"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+</section>

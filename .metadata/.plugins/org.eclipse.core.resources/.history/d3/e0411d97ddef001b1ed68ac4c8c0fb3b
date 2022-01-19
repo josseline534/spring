@@ -1,0 +1,11 @@
+package com.curso.product;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.curso.product.repository.ProductRepository;
+
+public class ProductRepositoryMockTest {
+	@Autowired
+	ProductRepository productRepository;
+	
+}
